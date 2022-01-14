@@ -1,0 +1,97 @@
+/*--------------------------
+        Google-Font
+--------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;700&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------------------
+        Main-Section-Style
+----------------------------------*/
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: .5em;
+    grid-row-gap: 30px;
+}
+
+.item{
+    width: 329px;
+    height: 476px;
+    padding-left: 14px;
+    padding-right: 15px;
+    color: #18191F;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.item-image{
+    width: 300px;
+}
+
+.item-image img{
+    width: 300px;
+    height: 256px;
+}
+
+.item-name{
+    width: 300px;
+}
+
+.item-name h1{
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.item-price{
+    width: 82px;
+    height: 36px;
+}
+
+.item-price h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.fa-star{
+    width: 11px;
+    height: 10px;
+    color: #FB8200;
+}
+
+.item-rating{
+    width: 300px;
+}
+
+.item-rating p{
+    color: #5E6366;
+    display: inline;
+    margin-left: 8px;
+    width: 300px;
+}
+
+.unfilled{
+    color: #787885;
+}
+
+.item-detail{
+    width: 196px;
+    height: 61px;
+    color: #787885;
+}
+.item-detail p{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.see-more a{
+    color: #E02C6D;
+    text-decoration: none;
+
+}

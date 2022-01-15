@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    padding-left: 40px;
 }
 
 /*-----------------------------------
@@ -69,12 +70,36 @@ body{
     height: 414px;
 }
 
+.heading-image img:hover{
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+
+    /* Logo */
+.logo-set{
+    width: 1110px;
+    height: 110px;
+    /* margin-top: ; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.logo img{
+    width: 55px;
+    height: 31px;
+}
+
 /*--------------------------------
         Main-Section-Style
 ----------------------------------*/
 
 main> h2{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 /*----------Collection---------*/
@@ -162,5 +187,51 @@ main> h2{
 .see-more a{
     color: #E02C6D;
     text-decoration: none;
+}
 
+/* --------Review section---------------- */
+
+.happy-customer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.happy-customer div:nth-child{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* .happy-customer article{
+
+} */
+
+/*------------------------------
+     Fotter Section style 
+-------------------------------*/
+.foot-container{
+    width: 1167px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #3A3A3A;
+}
+
+.foot-detail{
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+.foot-detail h4{
+
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.foot-detail p{
+    margin: 0;
 }
